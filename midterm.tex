@@ -1,0 +1,180 @@
+\documentclass[11pt,journal,compsoc]{IEEEtran}
+
+\ifCLASSOPTIONcompsoc
+  % IEEE Computer Society needs nocompress option
+  % requires cite.sty v4.0 or later (November 2003)
+  \usepackage[nocompress]{cite}
+\else
+  % normal IEEE
+  \usepackage{cite}
+\fi
+
+% IEEEtran.cls V1.7 and later.
+
+
+
+
+
+
+% *** PDF, URL AND HYPERLINK PACKAGES ***
+%
+%\usepackage{url}
+% url.sty was written by Donald Arseneau. It provides better support for
+% handling and breaking URLs. url.sty is already installed on most LaTeX
+% systems. The latest version and documentation can be obtained at:
+% http://www.ctan.org/pkg/url
+% Basically, \url{my_url_here}.
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+
+\begin{document}
+%
+\title{Internet Piracy in the \\ Age of SOPA and PIPA}
+%
+\author{Daniel~Cherney,~\IEEEmembership{Member,~ACM,}
+        Melissa~Riddle,~\IEEEmembership{Member,~ACM}%
+    
+\IEEEcompsocitemizethanks{\IEEEcompsocthanksitem D. Cherney is a Cybersecurity student at
+	California State University.\protect\\
+% note need leading \protect in front of \\ to get a newline within \thanks as
+% \\ is fragile and will error, could use \hfil\break instead.
+E-mail: dcherney@acm.org
+\IEEEcompsocthanksitem M. Riddle is a Math and Computer Science student at
+	California State University.\protect\\
+	% note need leading \protect in front of \\ to get a newline within \thanks as
+	% \\ is fragile and will error, could use \hfil\break instead.
+	E-mail: melissariddle@csu.fullerton.edu
+\IEEEcompsocthanksitem D. Cherney and M. Riddle are with California State University, Fullerton.}% <-this % stops an unwanted space
+\thanks{Manuscript received September 16, 2017; revised .}}
+
+
+% The paper headers
+\markboth{Technical Writing for Computer Science, Fall~2017}%
+{Shell \MakeLowercase{\textit{et al.}}: Internet Piracy in the Age of SOPA and PIPA}
+
+\IEEEtitleabstractindextext{%
+\begin{abstract}
+The abstract goes here.
+\end{abstract}
+
+\begin{IEEEkeywords}
+SOPA, PIPA, net neutrality, DNS, intellectual property, IP addressing
+\end{IEEEkeywords}}
+
+\maketitle
+
+\IEEEdisplaynontitleabstractindextext
+
+\IEEEpeerreviewmaketitle
+
+
+
+\IEEEraisesectionheading{\section{Introduction}\label{sec:introduction}}
+
+\IEEEPARstart{T}{he} Stop Online Piracy Act (SOPA) and Protect IP Act (PIPA) are bills in the U.S. House of Representatives and U.S. Senate respectively that seek to end piracy on the Internet. The implications of these legislation pieces are far reaching. Their effects would be felt around the globe. The United States is attempting to exert their power on a domain that does not belong to any jurisdiction. The drawbacks of trying to regulate the Internet far outweigh the possibility of ceasing piracy online.
+
+
+\subsection{What is the purpose of the SOPA and PIPA?}
+Subsection text here.
+
+\subsection{How does SOPA attempt to stop piracy?}
+SOPA attempts to stop online piracy through means which threaten a free and open internet. The first way that these bills tries to protect United States intellectual property laws is by enforcing DNS filtering. DNS filtering would prevent US IP addresses from accessing foreign websites that are accused of helping contribute to piracy. The potential for abuse by copyright holders is very high. Measuring United States intellectual property laws against the laws of sovereign nations elucidates a clear intent to further exert the United States' will internationally. SOPA also authorizes \textit{in rem} lawsuits in U.S. courts against domains that are found to be in violation. This means that any person which U.S. courts wouldn't naturally have jurisdiction over (i.e. anyone who is a citizen of any country besides the United States), the court would gain the power to indict them. Search engines would be required to remove the website from its database of websites that return search results. It would also disallow internet advertising networks from advertising on the specific website and that website could not publish advertisements to its domain on other sites. This would work to cut off funding for websites so it would be impractical to keep the website running. There would also be a prohibition of Visa or Mastercard transactions on the website in question. If any website or organization refused to cooperate with the U.S. government, they would be subject to what is known as an enforcement proceeding.
+
+\subsection{What was congress trying to accomplish?}
+Subsection text here.
+
+\subsection{Why would there be support for such bills?}
+The main support for the bill is currently media companies. These companies believe that piracy negatively affects revenue. They petition to get these bills passed in an attempt to increase their revenue. Places like Hollywood spend a lot of money on the production of several popular movies. Piracy, to them, means one less DVD sold and one less ticket sold. There would also be a lot of interest in this law by those who wish to expand the jurisdiction of the United States. SOPA and PIPA would allow the United States to expand its powers in prosecuting those who violate the United States' copyright laws. However, it is unsure whether or not other nations would be cooperative with the United States in this endeavor. However, there was large backlash in relation to these bills. Several large websites like Wikipedia and Google had what is known as a "black out" in protest of these laws. For many users of the Internet, it is a public enterprise that can be used regardless of your country of origin. The Internet community believes that the Internet is too big for regulation by only one country. Their belief is that these laws create severe limitations on the Internet. The United States government condemned these black outs. Most of the support for these bills comes in the form of musicians or actors representing Hollywood. These people wish to see their revenue increase so they wish to disrupt the international organization known as the Internet.
+
+\subsection{What is the status of SOPA and PIPA right now?}
+Subsection text here.
+
+\subsection{Replacement Policy}
+Subsection text here.
+
+
+\section{Conclusion}
+The conclusion goes here.
+
+\appendices
+\section{}
+Appendix one text goes here.
+
+
+% use section* for acknowledgment
+\ifCLASSOPTIONcompsoc
+  % The Computer Society usually uses the plural form
+  \section*{Acknowledgments}
+\else
+  % regular IEEE prefers the singular form
+  \section*{Acknowledgment}
+\fi
+
+
+The authors would like to thank Professor Pouya Radfar, Richard Stallman and the Free Software Foundation.
+
+
+% Can use something like this to put references on a page
+% by themselves when using endfloat and the captionsoff option.
+\ifCLASSOPTIONcaptionsoff
+  \newpage
+\fi
+
+
+% trigger a \newpage just before the given reference
+% number - used to balance the columns on the last page
+% adjust value as needed - may need to be readjusted if
+% the document is modified later
+%\IEEEtriggeratref{8}
+% The "triggered" command can be changed if desired:
+%\IEEEtriggercmd{\enlargethispage{-5in}}
+
+% references section
+
+% can use a bibliography generated by BibTeX as a .bbl file
+% BibTeX documentation can be easily obtained at:
+% http://mirror.ctan.org/biblio/bibtex/contrib/doc/
+% The IEEEtran BibTeX style support page is at:
+% http://www.michaelshell.org/tex/ieeetran/bibtex/
+%\bibliographystyle{IEEEtran}
+% argument is your BibTeX string definitions and bibliography database(s)
+%\bibliography{IEEEabrv,../bib/paper}
+%
+% <OR> manually copy in the resultant .bbl file
+% set second argument of \begin to the number of references
+% (used to reserve space for the reference number labels box)
+
+\begin{thebibliography}{1}
+
+\bibitem{IEEEhowto:kopka}
+H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
+  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+
+\end{thebibliography}
+
+% biography section
+% 
+% If you have an EPS/PDF photo (graphicx package needed) extra braces are
+% needed around the contents of the optional argument to biography to prevent
+% the LaTeX parser from getting confused when it sees the complicated
+% \includegraphics command within an optional argument. (You could create
+% your own custom macro containing the \includegraphics command to make things
+% simpler here.)
+%\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{mshell}}]{Michael Shell}
+% or if you just want to reserve a space for a photo:
+
+\begin{IEEEbiographynophoto}{Daniel Cherney}
+Daniel is currently a Computer Science student at California State University at Fullerton. He is studying Cybersecurity for a world that needs more people to keep information safe. Daniel is proud to be a supporter and contributor to several open source software projects. 
+\end{IEEEbiographynophoto}
+
+% if you will not have a photo at all:
+\begin{IEEEbiographynophoto}{Melissa Riddle}
+Biography text here.
+\end{IEEEbiographynophoto}
+
+
+\end{document}
+
+
