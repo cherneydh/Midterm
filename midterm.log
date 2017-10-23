@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.21)  22 OCT 2017 20:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.21)  22 OCT 2017 21:25
 entering extended mode
 **./midterm.tex
 (midterm.tex
@@ -176,26 +176,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <11.04124> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 78.
  [2] [3]
-Underfull \vbox (badness 1584) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
-[5]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6]
-Underfull \vbox (badness 1067) has occurred while \output is active []
-
- [7]
-[8
+[5] [6] [7] [8] [9
 
 ] (midterm.aux) ) 
 Here is how much of TeX's memory you used:
  1269 strings out of 493323
  22505 string characters out of 3139048
- 80954 words of memory out of 3000000
+ 81954 words of memory out of 3000000
  4844 multiletter control sequences out of 15000+200000
  44811 words of font info for 93 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -207,9 +200,9 @@ les/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9
 rw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/u
 plr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on midterm.pdf (8 pages, 95962 bytes).
+Output written on midterm.pdf (9 pages, 98500 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 61 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
